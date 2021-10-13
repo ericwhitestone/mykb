@@ -15,4 +15,6 @@ modules_install: default
 clean:
 	$(MAKE) -C $(KDIR) M=$$PWD clean
 
+install: modules_install
+
 endif
